@@ -131,3 +131,13 @@ footer {
     from { transform: translateY(-50px); opacity: 0; }
     to { transform: translateY(0); opacity: 1; }
 }
+
+/* Partner Logos */
+.partner-logo {
+    width: 50px; /* Même taille que le logo de la navbar */
+    height: 50px;
+    border-radius: 50%; /* Forme circulaire comme navbar-brand img */
+    margin-right: 10px; /* Espacement avec le texte */
+    vertical-align: middle; /* Alignement avec le texte */
+    object-fit: contain; /* S’assure que le logo reste proportionnel */
+}
