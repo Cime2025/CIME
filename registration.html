@@ -4,15 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CIME - Inscription</title>
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <!-- Custom CSS -->
     <link href="styles.css" rel="stylesheet">
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 <body>
-    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">
@@ -31,31 +28,20 @@
                     <li class="nav-item"><a class="nav-link" href="sponsors.html">Sponsors</a></li>
                     <li class="nav-item"><a class="nav-link" href="gallery.html">Galerie</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><div id="google_translate_element" class="translate-widget"></div></li>
                 </ul>
             </div>
         </div>
     </nav>
-
-    <!-- Registration Section -->
     <section class="registration-section py-5">
         <div class="container">
             <h1 class="text-center mb-4">Inscription à la CIME</h1>
             <p class="lead text-center">Les inscriptions sont ouvertes ! Participez à la Conférence d'Initiation au Multilatéralisme (CIME) et plongez dans une expérience immersive en diplomatie et coopération internationale.</p>
-
-            <!-- Instructions -->
             <div class="mt-4">
                 <h2>Instructions pour l'inscription</h2>
-                <p>
-                    <strong>Délégués :</strong> Les délégués participeront activement à la simulation en représentant un pays ou une organisation. 
-                    Veuillez remplir le formulaire correspondant à votre langue préférée.
-                </p>
-                <p>
-                    <strong>Observateurs :</strong> Les observateurs assisteront aux débats et aux sessions sans participer activement à la simulation. 
-                    Veuillez remplir le formulaire correspondant à votre langue préférée.
-                </p>
+                <p><strong>Délégués :</strong> Les délégués participeront activement à la simulation en représentant un pays ou une organisation. Veuillez remplir le formulaire correspondant à votre langue préférée.</p>
+                <p><strong>Observateurs :</strong> Les observateurs assisteront aux débats et aux sessions sans participer activement à la simulation. Veuillez remplir le formulaire correspondant à votre langue préférée.</p>
             </div>
-
-            <!-- Délégués Section -->
             <div class="row mt-4">
                 <div class="col-md-6">
                     <h3>Délégués</h3>
@@ -65,8 +51,6 @@
                         <a href="https://forms.gle/fHsJW4RTuoUszpdR7" class="btn btn-secondary btn-block">Formulaire en anglais</a>
                     </div>
                 </div>
-
-                <!-- Observateurs Section -->
                 <div class="col-md-6">
                     <h3>Observateurs</h3>
                     <p>Si vous souhaitez assister à l'événement en tant qu'observateur, veuillez remplir le formulaire ci-dessous :</p>
@@ -76,25 +60,28 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Date limite d'inscription -->
             <div class="alert alert-warning mt-4" role="alert">
                 ⏳ <strong>Date limite d'inscription : 31 mars 2025</strong>. Ne tardez pas à vous inscrire !
             </div>
-
-            <!-- Confirmation Message (Optionnel) -->
             <div class="alert alert-success mt-4" role="alert">
                 Merci pour votre inscription ! Nous vous contacterons bientôt avec plus de détails.
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
     <footer class="bg-dark text-white text-center py-4">
-        <p>&copy; 2024 CIME. Tous droits réservés.</p>
+        <p>© 2025 CIME. Tous droits réservés.</p>
     </footer>
-
-    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'fr',
+                includedLanguages: 'fr,en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false,
+                multilanguagePage: true
+            }, 'google_translate_element');
+        }
+    </script>
 </body>
 </html>
